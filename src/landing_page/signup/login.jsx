@@ -32,7 +32,7 @@ const Login = () => {
         if (success) {
           localStorage.setItem('username', username);
           setTimeout(() => {
-            window.location.href = 'http://localhost:5173/';
+            window.location.href = 'https://zerodhadashboard.onrender.com/';
           }, 1000);
         } else {
           console.log("error");
