@@ -19,7 +19,7 @@ const signup = () => {
       if (success) {
         console.log("registered successfully");
         setTimeout(() => {
-          window.location.href = 'http://localhost:5174/';
+          window.location.href = 'https://zerodhadashboard.onrender.com/';
         }, 1000);
       } else {
         console.log("not registered");
