@@ -9,7 +9,7 @@ const signup = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:3002/signup",
+        "https://zerodhabackend-l8sl.onrender.com/signup",
         {
           ...inputValue,
         },
